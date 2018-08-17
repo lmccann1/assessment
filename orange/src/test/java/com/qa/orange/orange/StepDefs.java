@@ -34,7 +34,7 @@ public class StepDefs {
 	@Before
 	public void setup(){
 		report = new ExtentReports("C:\\Users\\Admin\\Desktop\\AutomationReports\\AssessmentReport.html", true); 
-	test = report.startTest("TeaTesting"); 
+	test = report.startTest("orange hrm test"); 
 	   test.log(LogStatus.INFO, "Started");
 		
 		System.setProperty("webdriver.chrome.driver", "C:/Development/web_driver/chromedriver.exe");
